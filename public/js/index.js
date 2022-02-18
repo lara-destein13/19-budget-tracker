@@ -1,3 +1,13 @@
+// Register service worker, but only if service workers are enabled
+// in the browser.
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('../service-worker.js').then(function(registration) {
+    console.log('Service worker registration succeeded with scope:', registration.scope);
+  }).catch(function(e) {
+    console.log('Service worker registation failed with error:', e);
+  });  
+}
+
 let transactions = [];
 let myChart;
 
