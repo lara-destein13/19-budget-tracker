@@ -1,51 +1,16 @@
 {
-    "name": "Budget Tracker",
-    "short_name": "Budget Tracker",
+    "name": "Tracker",
+    "short_name": "BudgetTracker",
     "description": "An app that allows you to track your expenses and deposits to your budget with or without an internet connection",
     "icons": [
         {
-            "src": "public/icons/icon-72x72.png",
-            "type": "image/png",
-            "sizes": "72x72"
-        },
-        {
-            "src": "public/icons/icon-96x96.png",
-            "type": "image/png",
-            "sizes": "96x96"
-        },
-        {
-            "src": "public/icons/icon-128x128.png",
-            "type": "image/png",
-            "sizes": "128x128"
-        },
-        {
-            "src": "public/icons/icon-144x144.png",
-            "type": "image/png",
-            "sizes": "144x144"
-        },
-        {
-            "src": "public/icons/icon-152x152.png",
-            "type": "image/png",
-            "sizes": "152x152"
-        },
-        {
-            "src": "public/icons/icon-192x192.png",
+            "src": "/icons/icon-192x192.png",
             "type": "image/png",
             "sizes": "192x192"
-        },
-        {
-            "src": "public/icons/icon-384x384.png",
-            "type": "image/png",
-            "sizes": "384x384"
-        },
-        {
-            "src": "public/icons/icon-512x512.png",
-            "type": "image/png",
-            "sizes": "512x512"
         }
     ],    
-    "background_color": "#01579b",
-    "theme_color": "#ffffff",
-    "start_url": "/public/index.html", 
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "start_url": "/index.html", 
     "display": "standalone" 
 }   
