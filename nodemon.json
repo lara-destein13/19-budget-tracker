@@ -2,6 +2,6 @@
     "env": {
         "MONGO_USER": "laradestein13@gmail.com",
         "MONGO_PASSWORD": "RanD0mI$land",
-        "MONGO_DB": "mongodb+srv://serverlessinstance0.huyye.mongodb.net/tracker"
+        "MONGO_DB": "mongodb+srv://cluster0.huyye.mongodb.net/budget_db"
     }
 }
