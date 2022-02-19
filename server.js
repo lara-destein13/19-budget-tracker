@@ -3,8 +3,8 @@ const logger = require("morgan");
 const mongoose = require("mongoose");
 const compression = require("compression");
 const PORT = process.env.PORT || 3001;
-const MONGODB_URI = "mongodb+srv://cluster0.huyye.mongodb.net/budget_db";
-// const MONGODB_URI = process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/budget";
+// const MONGODB_URI = "mongodb+srv://cluster0.huyye.mongodb.net/budget_db";
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/budget";
 
 const app = express();
 

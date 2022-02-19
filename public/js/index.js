@@ -155,10 +155,12 @@ function sendTransaction(isAdding) {
 }
 
 document.querySelector("#add-btn").onclick = function() {
+  console.log("add clicked");
   sendTransaction(true);
 };
 
 document.querySelector("#sub-btn").onclick = function() {
+  console.log("subtract clicked");
   sendTransaction(false);
 };
 
