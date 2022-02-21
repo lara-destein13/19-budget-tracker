@@ -27,6 +27,7 @@ THEN the deposits or expenses added while they were offline are added to their t
 Application runs in the browswer and can be accessed at: 
 https://quiet-spire-50277.herokuapp.com/ 
 
+![Screen Shot 2022-02-20 at 7 56 23 PM](https://user-images.githubusercontent.com/88476888/154873419-cf41c50e-0b87-4b51-9977-05173ae8158f.png)
 
 ## Contributing
 Made with &hearts; by Lara DeStein
